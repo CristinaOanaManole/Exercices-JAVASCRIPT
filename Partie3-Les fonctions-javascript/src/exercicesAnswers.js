@@ -5,7 +5,7 @@ let stringLength = function (sentence) {
 
 //Exercice 2 : Remplacer le premier "e" de la chaîne par un espace.
 let replaceFirstEBySpace = function (sentence) {
-  return sentence.replace (/e/i, " ");
+  return sentence.replace ('e', '');
 }
 
 //Exercice 3 : Concaténer les deux chaînes de caractères.
