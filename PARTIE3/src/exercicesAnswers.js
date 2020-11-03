@@ -1,41 +1,41 @@
 //Exercice 1 : Donner la taille de la chaîne de caractères.
 let stringLength = function (sentence) {
-  return 'sentence.stringLenght';
+  return sentence.length;
 }
 
 //Exercice 2 : Remplacer le premier "e" de la chaîne par un espace.
 let replaceFirstEBySpace = function (sentence) {
-  return 'sentence.replace (/e/i, " ")';
+  return sentence.replace (/e/i, " ");
 }
 
 //Exercice 3 : Concaténer les deux chaînes de caractères.
 let concatenateSentences = function (firstSentence, secondSentence) {
-  return 'firstSentence + secondSentence';
+  return firstSentence + secondSentence;
 }
 
 //Exercice 4 : Afficher le cinquième caractère de la chaîne.
 let displayFifthCharacter = function (sentence) {
-  return 'sentence.substr(4,1)';
+  return sentence.substr(4,1);
 }
 
 //Exercice 5 : Afficher les 9 premiers caractère.
 let displayFirstNineCharacters = function (sentence) {
-  return 'sentence.substr(0,9)';
+  return sentence.substr(0,9);
 }
 
 //Exercice 6 : Mettre en majuscule la chaîne.
 let upperTheSentence = function (sentence) {
-  return 'sentence.toUpperCase()';
+  return sentence.toUpperCase();
 }
 
 //Exercice 7 : Mettre en minuscule la chaîne.
 let lowerTheSentence = function (sentence) {
-  return 'sentence.toLowerCase()';
+  return sentence.toLowerCase();
 }
 
 //Exercice 8 : Supprimer les espaces avant et après la chaîne.
 let removeSpaces = function (sentence) {
-  return 'sentence.trim()';
+  return sentence.trim();
 }
 
 //Exercice 9 : Afficher true si le paramètre d'entrée de la fonction est de type *string*.
