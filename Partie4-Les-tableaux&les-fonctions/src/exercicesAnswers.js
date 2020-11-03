@@ -57,8 +57,6 @@ let createPerson = function (array) {
 
 //Exercice 10 : Retourner la valeur de l\'index nom du tableau person.', function() {
 let returnName = function (array) {
-  let person = []
-
   return 'A compléter';
 }
 
@@ -68,8 +66,8 @@ let returnSentence = function (array) {
 }
 
 //Exercice 12 : Transformer la variable string en tableau.', function() {
-let returnArray = function (array) {
-  return array;
+let returnArray = function (string) {
+  return 'A compléter';
 }
 
 //Exercice 13 : Trier le tableau array.', function() {
