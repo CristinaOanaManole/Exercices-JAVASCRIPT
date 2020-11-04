@@ -57,25 +57,36 @@ let createPerson = function (array) {
 
 //Exercice 10 : Retourner la valeur de l\'index nom du tableau person.', function() {
 let returnName = function (array) {
-  return 'A compléter';
+  let person = [];
+  person['name'] = 'Jean';
+  person['age'] = 45;
+  person['city'] = 'Paris';
+  return person['name'];
 }
-
+  
 //Exercice 11 : Stocker tous les index du tableau person dans des variables séparées et les retourner dans une même phrase de type : "Bonjour, je suis Jean. J\'ai 45 ans et j\'habite Paris."', function() {
 let returnSentence = function (array) {
-  return 'A compléter';
+  let person = [];
+  let name = person['name'] = 'Jean';
+  let age = person['age'] = 45;
+  let city = person['city'] = 'Paris';
+  return "Bonjour, je suis " + name +  ". J\'ai " + age + " ans et j\'habite "+ city + ".";
 }
-
+  
 //Exercice 12 : Transformer la variable string en tableau.', function() {
-let returnArray = function (string) {
-  return 'A compléter';
+  let returnArray = function (string) {
+   let array = string.split([',']);
+   return array;
 }
-
+  
 //Exercice 13 : Trier le tableau array.', function() {
-let sortArray = function (array) {
-  return 'A compléter';
+  let sortArray = function (array) {
+    let sortArray = array.sort();
+    return sortArray;
 }
-
+  
 //Exercice 14 : Transformer le tableau array en chaîne de caractères', function() {
-let returnString = function (array) {
-  return 'A compléter';
+  let returnString = function (array) {
+    let string = array.toLocaleString();
+    return string;
 }
