@@ -1,0 +1,6 @@
+.matching {
+    border-color: green;
+}
+.not-matching {
+    border-color: red;
+}
