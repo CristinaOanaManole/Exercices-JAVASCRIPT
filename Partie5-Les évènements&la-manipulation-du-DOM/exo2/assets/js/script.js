@@ -1,14 +1,16 @@
-let submiButton = document.getElementById('submitButton');
-    submiButton.onclick = function (e) {
-        e.preventDefault();
-    let password = document.getElementById('password');
-    let passwordConfirm = document.getElementById('passwordConfirm');
+let password = document.getElementById('password');
+let passwordConfirm = document.getElementById('passwordConfirm');
+let buttonSubmit = document.getElementById('submitButton');
+// element1.addEventListener('blur', testPWD , true)
+// element2.addEventListener('blur', testPWD , true)
 
-    if (password.value == passwordConfirm.value) {
-            password.style.borderColor = 'green';
-            passwordConfirm.style.borderColor = 'green';
+buttonSubmit.onclick = function(e) {
+    e.preventDefault;
+    if (password.value === passwordConfirm.value) {
+        password.classList.toggle('borderGreen');
+        passwordConfirm.classList.toggle('borderGreen');
     } else {
-        password.style.borderColor = 'red';
-        passwordConfirm.style.borderColor = 'red';
+        password.classList.toggle('borderRed');
+        pass.classList.toggle('borderRed');
     }
-}
+};
