@@ -1,4 +1,4 @@
-let imageManip = document.querySelector('img');
+let imageManip = document.getElementById('img');
 
 imageManip.onclick = function () {
 
