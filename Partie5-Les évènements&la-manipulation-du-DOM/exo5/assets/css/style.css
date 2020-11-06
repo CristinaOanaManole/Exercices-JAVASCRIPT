@@ -1,0 +1,31 @@
+.pinkBackgroundColor {
+    background-color: pink;
+}
+
+.pinkTextColor {
+    color: pink;
+}
+
+.blueBackgroundColor {
+    background-color: lightblue;
+}
+
+.blueTextColor {
+    color: lightblue;
+}
+
+.purpleBackgroundColor {
+    background-color: purple;
+}
+
+.purpleTextColor {
+    color: purple;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.italicText {
+    font-style: italic;
+}
