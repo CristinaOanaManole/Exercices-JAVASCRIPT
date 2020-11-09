@@ -1,10 +1,10 @@
 
-let cloned = document.getElementById('cloned');
+const cloned = document.getElementById('cloned');
 
-cloned.addEventListener('click' , clonedInput , true)
+cloned.addEventListener('click' , clonedInput)
 
 function clonedInput(e) {
     e.preventDefault();
     let name = document.getElementById("form").cloneNode(true);
-    document.getElementById('form').appendChild(name);
+    document.getElementById('formName').appendChild(name);
 }
