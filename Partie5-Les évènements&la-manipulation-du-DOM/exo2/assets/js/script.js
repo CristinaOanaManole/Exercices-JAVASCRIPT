@@ -1,3 +1,4 @@
+
 let password = document.getElementById('password');
 let passwordConfirm = document.getElementById('passwordConfirm');
 let buttonSubmit = document.getElementById('submitButton');
@@ -11,6 +12,6 @@ buttonSubmit.onclick = function(e) {
         passwordConfirm.classList.toggle('borderGreen');
     } else {
         password.classList.toggle('borderRed');
-        pass.classList.toggle('borderRed');
+        passwordConfirm.classList.toggle('borderRed');
     }
 };

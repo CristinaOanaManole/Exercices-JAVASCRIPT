@@ -3,21 +3,21 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Partie 5 exo 2</title>
 </head>
 
 <body>
-
-  <form name="Confirmer le mot de passe">
-    <label for="password">Entrez votre mot de passe :</label>
-    <input class="passord" name="password" id="password" type="password" />
-    <label for="confirm password:">Confirmer votre mot de passe:</label>
-    <input class="passwordConfirm" type="password" name="passwordConfirm" id="passwordConfirm" />
-    <button class="button" type="submit" id="submitButton" onclick="changeBorderColor()">Connexion</button>
+  <form action="POST">
+    <label for="password">Mot de passe</label>
+    <input type="text" name="password" id="password">
+    <label for="passwordConfirm">Confirmez le mot de passe</label>
+    <input type="text" name="passwordConfirm" id="passwordConfirm">
+    <button id="submitButton" type="button">Connexion</button>
   </form>
 
   <script src=" assets/js/script.js"> </script>
 </body>
 
 </html>
-

@@ -8,12 +8,12 @@
 
 <body>
 
-  <form name="Confirmer le mot de passe">
-    <label for="password">Entrez votre mot de passe :</label>
-    <input name="password" id="password" type="password" />
-    <label for="confirm password:">Confirmer votre mot de passe:</label>
-    <input type="password" name="passwordConfirm" id="passwordConfirm" />
-    <button id="submitButton" type="submit">Envoyer</button>
+  <form action="POST">
+    <label for="password">Mot de passe</label>
+    <input type="text" name="password" id="password">
+    <label for="passwordConfirm">Confirmez le mot de passe</label>
+    <input type="text" name="passwordConfirm" id="passwordConfirm">
+    <button id="submitButton" type="button">Connexion</button>
   </form>
 
   <script src=" assets/src/script.js"> </script>

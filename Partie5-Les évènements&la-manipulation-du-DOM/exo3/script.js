@@ -1,4 +1,4 @@
-const named = document.getElementById("name");
+const name = document.getElementById("name");
 const mail = document.getElementById("mail");
 const age = document.getElementById("age");
 
@@ -7,11 +7,11 @@ const regexName = /^[a-zA-Z-éèàôêçâîù ]{1,10}$/;
 const regexMail = /^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/;
 const regexAge = /^([0-1][0-2]\d{1}$|\d{0,2})$/;
 
-named.onblur = function () {
-	if (regexName.test(named.value) == false) {
-		document.getElementById("errorNamed").textContent = "Veuillez respecter le bon format. Ex : Dupont";
+name.onblur = function () {
+	if (regexName.test(name.value) == false) {
+		document.getElementById("errorName").textContent = "Veuillez respecter le bon format. Ex : Dupont";
 	} else {
-		document.getElementById("errorNamed").textContent = "Ok";
+		document.getElementById("errorName").textContent = "Ok";
 	}
 }
 
