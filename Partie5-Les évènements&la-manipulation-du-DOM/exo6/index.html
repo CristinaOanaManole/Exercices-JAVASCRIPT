@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title>Partie 5 Exo 6</title>
-  </head>
-  <body>
-    <form id="form">
-        <input name="firstCase">
-        <input name="secondCase">
+<html lang="fr">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partie 5 Exo 6</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="name">Nom : </label>
+            <input type="text" name='name' id="name" required>
+        </div>
+        <div>
+            <label for="mail">Mail : </label>
+            <input type="email" name='mail' id="mail" required>
+        </div>
+
+        <button id="submitButton" type="button">Envoyer</button>
     </form>
 
-    <script src="script.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>
