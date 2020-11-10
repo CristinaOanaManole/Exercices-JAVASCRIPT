@@ -1,4 +1,3 @@
-
 const cloned = document.getElementById('cloned');
 
 cloned.addEventListener('click' , clonedInput)

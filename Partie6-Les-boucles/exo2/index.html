@@ -11,12 +11,14 @@
 <body>
 
     <script>
-        for (let i = 0; i <= 100; i++) {
-            let span = document.createElement("span");
-            if (i % 15 == 0) {
-                span.innerHTML = i + '...';
+        for (let number = 1; number <= 100; number++) {
+            let div = document.createElement('div');
+            if (number % 15 == 0) {
+                div.innerHTML = '...';
+            } else {
+                div.innerHTML = number;
             }
-            document.body.appendChild(span);
+            document.body.appendChild(div);
         }
     </script>
 </body>
