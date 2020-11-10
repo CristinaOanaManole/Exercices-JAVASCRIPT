@@ -4,17 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partie 6 Exo 1</title>
+
+    <title>Partie 6 Exo 2</title>
 </head>
 
 <body>
 
     <script>
-        for (let i = 2020; i <= 2030; i++) {
+        for (let i = 0; i <= 100; i++) {
         let span = document.createElement("span");
+        if (i % 15 == 0){
         span.innerHTML += i+' ';
-        if (i % 100 == 0 && i % 400 == 0 || i % 4 == 0){
-        span.style.color='red';
     }
         document.body.appendChild(span);
     } 

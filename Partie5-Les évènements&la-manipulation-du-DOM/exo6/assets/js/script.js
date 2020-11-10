@@ -1,3 +1,4 @@
+  
 const name = document.getElementById("name");
 const mail = document.getElementById("mail");
 
