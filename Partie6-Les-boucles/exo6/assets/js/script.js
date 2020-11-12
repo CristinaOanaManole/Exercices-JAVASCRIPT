@@ -1,7 +1,7 @@
 let resultDiv = document.getElementById("resultDiv");
 
 let firstNumber = 100;
-const secondNumber = 2;
+let secondNumber = 2;
 
 
 while ((firstNumber / secondNumber) >= 1) {

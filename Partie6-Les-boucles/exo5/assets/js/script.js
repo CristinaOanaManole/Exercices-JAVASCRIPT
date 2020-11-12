@@ -1,6 +1,6 @@
 let resultDiv = document.getElementById("resultDiv");
 
-const firstNumber = 2;
+let firstNumber = 2;
 let secondNumber = 2;
 
 
