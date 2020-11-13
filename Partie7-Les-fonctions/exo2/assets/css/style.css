@@ -1,0 +1,11 @@
+.textBold {
+    font-weight: bold;
+}
+
+.colorChanged {
+    color: green;
+}
+
+.sizeChanged {
+    font-size: 1.2rem;
+}
