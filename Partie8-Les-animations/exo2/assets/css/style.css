@@ -1,0 +1,28 @@
+body {
+  min-height: 1200px;
+}
+
+@media (max-width: 767px) {
+  a {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    padding-bottom: 20px;
+  }
+}
+
+nav a:hover {
+  background-color: #7eb9be;
+}
+
+.navBar:hover {
+  background-color: #7eb9be;
+}
+
+ul li {
+  text-align: center;
+}
+
