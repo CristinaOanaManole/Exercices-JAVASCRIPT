@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/img/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>Calculatrice JS</title>
+</head>
+
+<body class="bg-dark">
+   
+        <div class="row">
+            <input class="col-lg-4 col-4 bg-dark" id="firstNumber"></input>
+            <div class="col-lg-4 col-4 bg-dark" id="operator"></div>
+            <input class="col-lg-4 col-4 bg-dark" id="secondNumber"></input>
+        </div>
+        <div id="touch">
+            <div id="ligneP" class="row justify-content-center">
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="clear" value="">C</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="modulo" value="%">%</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="division" value="/">/</button>
+                <button class="col-lg-3 col-3 btn btn-success border-dark" id="plusMoins" value="+/-">+/-</button>
+                
+            </div>
+            <div id="firstLigne" class="row justify-content-center">
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="seven" value="7">7</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="eight" value="8">8</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="nine" value="9">9</button>
+                <button class="col-lg-3 col-3 btn btn-success border-dark" id="multiplication" value="x">x</button>
+            </div>
+            <div id="secondLigne" class="row justify-content-center">
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="four" value="4">4</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="five" value="5">5</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="six" value="6">6</button>
+                <button class="col-lg-3 col-3 btn btn-success border-dark font-weight-bolder" id="substraction" value="-">-</button>
+            </div>
+            <div id="thirdLigne" class="row justify-content-center">
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="one" value="1">1</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark"id="two" value="2">2</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="three" value="3">3</button>
+                <button class="col-lg-3 col-3 btn btn-success border-dark font-weight-bolder" id="add" value="+">+</button>
+            </div>
+            <div id="fourthLigne" class="row justify-content-center">
+                <button class="col-lg-6 col-6 btn btn-light border-dark" id="zero" value="0">0</button>
+                <button class="col-lg-3 col-3 btn btn-light border-dark" id="decimalPoint" value=".">.</button>
+                <button type="button" class="col-lg-3 col-3 btn btn-primary" id="egal" value="=">=</button>
+            </div>
+            </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#firstNumber, #operator, #secondNumber {
+    height: 15rem;
+    font-size: 1.5rem;
+    border:none;
+    padding-top: 5rem;
+    color: white;
+}
+
+#ligneP, #firstLigne, #secondLigne, #thirdLigne, #fourthLigne {
+    font-size: 5rem;
+    height: 5rem;
+}
+
+#clear, #modulo, #division, #plusMoins #multiplication {
+    color: white;
+    background-color: orange;
+}

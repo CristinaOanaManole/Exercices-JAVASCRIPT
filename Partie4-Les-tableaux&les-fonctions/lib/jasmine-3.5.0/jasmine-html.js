@@ -98,7 +98,7 @@ jasmineRequire.HtmlReporter = function(j$) {
             href: 'http://jasmine.github.io/',
             target: '_blank'
           }),
-          createDom('span', { className: 'jasmine-version' }, j$.version)
+          createDom('div', { className: 'jasmine-version' }, j$.version)
         ),
         createDom('ul', { className: 'jasmine-symbol-summary' }),
         createDom('div', { className: 'jasmine-alert' }),
@@ -191,7 +191,7 @@ jasmineRequire.HtmlReporter = function(j$) {
       var i;
       alert.appendChild(
         createDom(
-          'span',
+          'div',
           { className: 'jasmine-duration' },
           'finished in ' + doneResult.totalTime / 1000 + 's'
         )
@@ -209,7 +209,7 @@ jasmineRequire.HtmlReporter = function(j$) {
         var skippedLink = addToExistingQueryString('spec', '');
         alert.appendChild(
           createDom(
-            'span',
+            'div',
             { className: 'jasmine-bar jasmine-skipped' },
             createDom(
               'a',
@@ -251,7 +251,7 @@ jasmineRequire.HtmlReporter = function(j$) {
       var seedBar;
       if (order && order.random) {
         seedBar = createDom(
-          'span',
+          'div',
           { className: 'jasmine-seed-bar' },
           ', randomized with seed ',
           createDom(
@@ -267,7 +267,7 @@ jasmineRequire.HtmlReporter = function(j$) {
 
       alert.appendChild(
         createDom(
-          'span',
+          'div',
           { className: statusBarClassName },
           statusBarMessage,
           seedBar
@@ -280,7 +280,7 @@ jasmineRequire.HtmlReporter = function(j$) {
       for (i = 0; i < globalFailures.length; i++) {
         alert.appendChild(
           createDom(
-            'span',
+            'div',
             { className: errorBarClassName },
             globalFailureMessage(globalFailures[i])
           )
@@ -310,7 +310,7 @@ jasmineRequire.HtmlReporter = function(j$) {
         var warning = deprecationWarnings[i];
         alert.appendChild(
           createDom(
-            'span',
+            'div',
             { className: warningBarClassName },
             'DEPRECATION: ' + warning
           )
@@ -325,9 +325,9 @@ jasmineRequire.HtmlReporter = function(j$) {
       if (failures.length) {
         alert.appendChild(
           createDom(
-            'span',
+            'div',
             { className: 'jasmine-menu jasmine-bar jasmine-spec-list' },
-            createDom('span', {}, 'Spec List | '),
+            createDom('div', {}, 'Spec List | '),
             createDom(
               'a',
               { className: 'jasmine-failures-menu', href: '#' },
@@ -337,14 +337,14 @@ jasmineRequire.HtmlReporter = function(j$) {
         );
         alert.appendChild(
           createDom(
-            'span',
+            'div',
             { className: 'jasmine-menu jasmine-bar jasmine-failure-list' },
             createDom(
               'a',
               { className: 'jasmine-spec-list-menu', href: '#' },
               'Spec List'
             ),
-            createDom('span', {}, ' | Failures ')
+            createDom('div', {}, ' | Failures ')
           )
         );
 
@@ -474,7 +474,7 @@ jasmineRequire.HtmlReporter = function(j$) {
       var optionsMenuDom = createDom(
         'div',
         { className: 'jasmine-run-options' },
-        createDom('span', { className: 'jasmine-trigger' }, 'Options'),
+        createDom('div', { className: 'jasmine-trigger' }, 'Options'),
         createDom(
           'div',
           { className: 'jasmine-payload' },
